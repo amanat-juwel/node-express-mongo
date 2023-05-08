@@ -1,0 +1,22 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "description": "A sample blog API built with Node.js, Express, and MongoDB",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Amanat Juwel",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^7.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
